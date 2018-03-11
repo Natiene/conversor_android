@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.exe1aula6.Tempo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor: "
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/valor"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_weight="1"
+            android:spinnerMode="dialog"
+            android:entries="@array/itenstempo">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txt1"
+            android:text="---"
+            android:textAlignment="textEnd"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ms"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txt2"
+            android:text="---"
+            android:textAlignment="textEnd"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="seg"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txt3"
+            android:text="---"
+            android:textAlignment="textEnd"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="min"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txt4"
+            android:text="---"
+            android:textAlignment="textEnd"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="hora"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txt5"
+            android:text="---"
+            android:textAlignment="textEnd"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="dia"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:textColor="#0000ff"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
